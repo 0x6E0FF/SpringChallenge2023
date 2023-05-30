@@ -1,9 +1,14 @@
-# SpringChallenge2023
+# SpringChallenge2023 Benchmark
 
-Source code for CodinGame's Spring Challenge 2023 event.
+Fork of CodinGame's Spring Challenge 2023 event. https://github.com/CodinGame/SpringChallenge2023
 
-https://www.codingame.com/contests/spring-challenge-2023
+Allow to benchmark a bot against a set of reference bots, with fixed seeds, and for each seed both start positions.
 
-Community starter AIs are located here:
+requires :
+ - current bot to be compiled as `../bots/current`
+ - reference bots compiled in `../bechmark/`
 
-https://github.com/CodinGame/SpringChallenge2023/tree/main/starterAIs
+Install and run :
+```bash
+mvn package && java -jar target/spring-2023-ants-1.0-SNAPSHOT.jar
+```
